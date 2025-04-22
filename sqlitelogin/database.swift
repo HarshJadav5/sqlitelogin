@@ -52,7 +52,7 @@ class DatabaseManager {
             print("User registered successfully")
             return true
         } catch {
-            print("Registration failed: \(error)")
+            print("Registration is failed: \(error)")
             return false
         }
     }
